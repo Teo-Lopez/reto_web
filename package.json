@@ -1,0 +1,26 @@
+{
+  "name": "the-phone-cave",
+  "version": "1.0.0",
+  "description": "Marketplace de teléfonos de no tan última generación.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Teo-Lopez/reto_web.git"
+  },
+  "keywords": [
+    "phone",
+    "phones",
+    "challenge",
+    "reto",
+    "telefono"
+  ],
+  "author": "Teodoro López",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Teo-Lopez/reto_web/issues"
+  },
+  "homepage": "https://github.com/Teo-Lopez/reto_web#readme"
+}

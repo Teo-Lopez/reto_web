@@ -1,45 +1,52 @@
-# Bienvenid@ al reto de The Phone Cave
+<h1 align="center">Welcome to the-phone-cave 👋</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
+  <a href="https://github.com/Teo-Lopez/reto_web#readme" target="_blank">
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
+  </a>
+  <a href="https://github.com/Teo-Lopez/reto_web/graphs/commit-activity" target="_blank">
+    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
+  </a>
+  <a href="https://github.com/Teo-Lopez/reto_web/blob/master/LICENSE" target="_blank">
+    <img alt="License: ISC" src="https://img.shields.io/github/license/Teo-Lopez/the-phone-cave" />
+  </a>
+</p>
 
-Las nuevas técnologías estan llegando a los lugares mas reconditos del planeta, y con la misión de ofrecer los mejores telefonos al mejor precio del mercado, nace The Phone Cave.
+> Marketplace de teléfonos de no tan última generación.
 
-<img src="https://futurechallenges.org/wp-content/uploads/2013/12/Container_Shop_in_Joe_Slovo_Park.jpg" alt="drawing" width="500"/>
+### 🏠 [Homepage](https://github.com/Teo-Lopez/reto_web#readme)
 
-En el día de hoy hemos venido a presentarte el reto que hemos diseñado para el puesto de Javascript Developer. 
+## Install
 
-##### El reto
+```sh
+cd client; npm install; cd ../server; npm install;
+```
 
-Tu tarea es escribir una aplicación de catálogo de telefonos muy simple (o no). Los requisitos mínimos para que leamos tu código son los siguientes:
+## Usage
 
-1. Escribir una sencilla API REST en el lenguaje que te resulte más cómodo (NodeJS, Rails, Java) que...
- - Tenga 1 endpoint `/teléfonos`
- - Devuelve la carga adjunta "phones.json"
- - No hay necesidad de una capa de persistencia (BBDD). 
-2. Escribir una aplicación de React que muestre los teléfonos de la API.
- - Utilice Redux para la administración del estado y Axios (o una biblioteca similar) para obtener datos de la API REST. (Puedes no usar Redux)
- - Mostrar una lista inicial con todos los teléfonos
- - Cuando se selecciona un modelo de teléfono de la lista, se muestra una vista detallada del teléfono que muestra algunos detalles más sobre el mismo.
- - Mostrar un componente tipo spinner o de marcador de posición mientras la solicitud de la API está en curso.
- - Haz que se vea decente. No hay necesidad de un diseño súper sofisticado, pero como mínimo, hazlo algo sensible para que no se vea terrible en un teléfono móvil. Añade imágenes para cada dispositivo.
-3. Envía el código a un repositorio público de github con un README.md que explique cómo ejecutar la API y la aplicación Frontend.
+```sh
+cd server; npm run dev; cd ../client; npm start; 
+```
 
-##### Los bonus
-Como abras podido comprobar ya te hemos empezado a exigir Redux, pero no te vamos a mentir nos gustaria verte desplegar todo tu arsenal de armas, así pues si sabes:
+## Author
 
-- Typescript
-- GraphQL
-- Mongo
-- Redux
-- Hooks
-- Styled Components
-- Docker
-- Eres capaz de subir a producción la página
+👤 **Teodoro López**
 
-Los límites los pones TU, demuestra el motivo de que acabemos eligiendote para el puesto.
+* Github: [@Teo-Lopez](https://github.com/Teo-Lopez)
+* LinkedIn: [@teodorolopezgarcia](https://linkedin.com/in/teodorolopezgarcia)
 
- - Puedes hacer una API compleja, añadir login, un carrito de la compra...
- - Puedes maquetarlo en exclusiva para movil a modo de app...
+## 🤝 Contributing
 
-Ahora bien, el limite de entrega es el Lunes a las 10:00 am.  
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/Teo-Lopez/reto_web/issues). You can also take a look at the [contributing guide](https://github.com/Teo-Lopez/reto_web/blob/master/CONTRIBUTING.md).
 
+## Show your support
 
-Para comenzar con el reto haz fork del repositorio y para entregarlo no olvides hacer PR. Currate un Readme.MD bueno si no se adjuntan las instrucciones para correr el repo tu candidatura quedará invalidada.
+Give a ⭐️ if this project helped you!
+
+## 📝 License
+
+Copyright © 2021 [Teodoro López](https://github.com/Teo-Lopez).<br />
+This project is [ISC](https://github.com/Teo-Lopez/reto_web/blob/master/LICENSE) licensed.
+
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
