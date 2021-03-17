@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to the-phone-cave 👋</h1>
+# <h1 align="center">Welcome to the-phone-cave 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/Teo-Lopez/reto_web#readme" target="_blank">
@@ -15,9 +15,12 @@
 </p>
 
 > Marketplace de teléfonos de no tan última generación.
-> Este proyecto consiste en un reto de programación consultable <a href="https://github.com/VictorRodriguezIronhack/reto_web">aquí</a>.
-> Consiste en una pantalla principal de muestra de teléfonos móviles y vistas de detalles para cada uno.
-> La información viene suministrada desde una API Rest construida en <code>express</code> y un frontend construido con <code>react</code>
+
+This project is based on a coding challenge accessible  <a href="https://github.com/VictorRodriguezIronhack/reto_web">here</a>.
+
+It's home shows all mobile phones which link to a detailed view for each one.
+
+The data is served from an API Rest built using <code>Express.js</code> and <code>Node</code> and is displayed using <code>React</code>
 
 ### 🏠 [Homepage](https://github.com/Teo-Lopez/reto_web#readme)
 
@@ -32,6 +35,21 @@ cd client; npm install; cd ../server; npm install;
 ```sh
 cd server; npm run dev; cd ../client; npm start;
 ```
+
+## Endpoint Table
+
+### Client
+Verb | Endpoint | Result
+------------ | ------------- | -------------
+GET | "/" | Full phone list
+GET | "/details/:id" | Details of the phone
+
+### Server
+
+Verb | Endpoint | Result
+------------ | ------------- | -------------
+GET | "/api/phones" | Full phone json
+GET | "/api/phones/:id" | Phone json by recovered by ID
 
 ## Author
 
