@@ -14,7 +14,7 @@
   <img alt="Technology employed: express" src="https://img.shields.io/badge/express-4.17.1-blue"/>
 </p>
 
-> Marketplace de teléfonos de no tan última generación.
+> Phone Marketplace of _not_ the latest models.
 
 This project is based on a coding challenge accessible  <a href="https://github.com/VictorRodriguezIronhack/reto_web">here</a>.
 
