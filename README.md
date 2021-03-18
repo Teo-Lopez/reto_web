@@ -34,7 +34,7 @@ cd client; npm install; cd ../server; npm install;
 
 In different terminals
 ```sh
-cd server; npm run dev; cd client; npm start;
+cd server; npm run dev;
 ```
 ```sh
 cd client; npm start;
