@@ -7,7 +7,6 @@ import PhonesService from '../../services/phones.service'
 const phonesService = new PhonesService()
 
 const PhoneWrapper = styled.section`
-
 	margin: 120px 60px 0 60px;
 
 	img {
@@ -63,7 +62,7 @@ function PhoneDetails() {
 							<li>Screen type: {phone.screen}</li>
 							<li>Processor: {phone.processor}</li>
 							<li>Ram memory:{phone.ram}</li>
-							<li>Price: {phone.price}</li>
+							<li>Price: {phone.price}€</li>
 						</ul>
 					</article>
 				</Col>

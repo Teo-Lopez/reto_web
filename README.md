@@ -32,9 +32,15 @@ cd client; npm install; cd ../server; npm install;
 
 ## Usage
 
+In different terminals
 ```sh
-cd server; npm run dev; cd ../client; npm start;
+cd server; npm run dev; cd client; npm start;
 ```
+```sh
+cd client; npm start;
+```
+
+The web will open by itself.
 
 ## Endpoint Table
 
