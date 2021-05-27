@@ -66,11 +66,11 @@ GET | "/api/phones/:id" | Phone json by recovered by ID
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/Teo-Lopez/reto_web/issues). You can also take a look at the [contributing guide](https://github.com/Teo-Lopez/reto_web/blob/master/CONTRIBUTING.md).
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/Teo-Lopez/reto_web/issues).
 
 ## Show your support
 
-Give a ⭐️ if this project helped you!
+Give a ⭐️ if you liked this project!
 
 ## 📝 License
 
