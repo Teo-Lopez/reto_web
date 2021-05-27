@@ -7,9 +7,6 @@
   <a href="https://github.com/Teo-Lopez/reto_web/graphs/commit-activity" target="_blank">
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-no-inactive.svg" />
   </a>
-  <a href="https://github.com/Teo-Lopez/reto_web/blob/master/LICENSE" target="_blank">
-    <img alt="License: ISC" src="https://img.shields.io/github/license/Teo-Lopez/the-phone-cave" />
-  </a>
   <img alt="Technology employed: react" src="https://img.shields.io/badge/react-17.0.1-blue"/>
   <img alt="Technology employed: express" src="https://img.shields.io/badge/express-4.17.1-blue"/>
 </p>
